@@ -1,4 +1,4 @@
-    {{ config(  materialized='ephemeral', alias='clean_and_transformed') }}
+    {{ config(  materialized='table', alias='clean_and_transformed') }}
     
     
     select 
