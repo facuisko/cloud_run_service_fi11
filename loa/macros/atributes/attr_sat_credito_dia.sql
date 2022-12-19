@@ -24,7 +24,8 @@
     credit_fec_actualizacion,
     --id_registro_stage,
     '{{ run_started_at}}' as MDM_fhNew,
-    MDM_ProcessNew,
+    MDM_AppName,
+    MDM_DagRunId,
     periodo_dia
     
 {% endmacro %}

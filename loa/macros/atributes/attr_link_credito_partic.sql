@@ -6,6 +6,7 @@
     periodo_dia AS link_fec_ingreso,
     --id_registro_stage,	
     '{{ run_started_at}}' as MDM_fhNew,
-    MDM_ProcessNew
+    MDM_AppName,
+    MDM_DagRunId
 
 {% endmacro %}

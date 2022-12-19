@@ -4,6 +4,7 @@
     sistema_origen,		
     periodo_dia as credit_fec_ingreso,	
     '{{ run_started_at}}' as MDM_fhNew,
-    MDM_ProcessNew
+    MDM_AppName,
+    MDM_DagRunId
 
 {% endmacro %}
